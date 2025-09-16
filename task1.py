@@ -47,3 +47,35 @@ for i in range(terms):
 
 """
 
+# 5. String Reverse 
+"""
+print(input("Enter a string: ")[::-1])
+"""
+
+
+# 6. Palindrome check
+"""
+word= input("Enter a word: ")
+reverse_word = word[::-1]
+
+if word == reverse_word:
+    print(f"{word} is a palindrome")
+else:
+    print(f"{word} is not palindrome")
+
+"""
+
+# 7. Leap year check
+
+"""
+year = int(input("Enter a year: "))
+
+if  (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+    print(f"{year} is a leap year") 
+        
+else:
+    print(f"{year} is not a leap year")
+
+"""
+
+# 8. 
