@@ -78,4 +78,21 @@ else:
 
 """
 
-# 8. 
+# 8. Armstrong number
+
+"""
+def armstrong(n, order) -> bool:
+    sum = 0
+    for i in str(n):
+        sum += int(i) ** order
+    return sum == n
+
+num = int(input("Enter a number: "))
+order = len(str(num))
+
+if armstrong(num, order):
+    print(f"{num} is an Armstrong number")
+else:
+    print(f"{num} is not an Armstrong number")
+
+"""
