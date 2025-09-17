@@ -49,7 +49,7 @@ for i in range(terms):
 
 # 5. String Reverse 
 """
-print(input("Enter a string: ")[::-1])
+print(f"Reversed string: {input("Enter a string: ")[::-1]}")
 """
 
 
