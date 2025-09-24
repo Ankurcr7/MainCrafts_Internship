@@ -35,16 +35,16 @@ while True:
     print("Select an option from below:-")
     print("[1] Add Expense \n[2] View Expenses \n[3] Total Expenses \n")
     
-    user = int(input("Type the option's number or type any character to EXIT: "))
-    if user == 1:
+    user = input("Type the option's number or type any character to EXIT: ")
+    if user == "1":
         desc = input("Description: ")
         amount = float(input("Amount: "))
         add_expense(desc, amount)
 
-    elif user == 2:
+    elif user == "2":
         view_expenses()
 
-    elif user == 3:
+    elif user == "3":
         total_expenses()
 
     else:
