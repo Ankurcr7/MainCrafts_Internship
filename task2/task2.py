@@ -7,26 +7,34 @@ def add_expense(desc: str, amount: float) -> None:
         f = open("expenses.csv", "a", newline="\n")
         writer = csv.writer(f)
         writer.writerow([desc, amount])
-        f.close()
 
-    except(Exception):
+        print("Successfully Added!\n")
+
+    except Exception:
         print("Unexpected Error Occured, Try again!") 
 
 
 def view_expenses() -> None:
-    with open("expenses.csv", "r") as f:
-        for i in csv.reader(f):
-            print(f"Description: {i[0]}, Amount: {i[1]}")
-        print()
+    try:
+        with open("expenses.csv", "r") as f:
+            print("Description  |  Amount")
+            for i in csv.reader(f):
+                print(f"{i[0]}  |  {i[1]}")
+            print()
+    except FileNotFoundError:
+        print("File not found or No expenses found!")
 
 
 def total_expenses() -> None:
     sum = 0
-    with open("expenses.csv", "r") as f:
-        for i in csv.reader(f):
-            sum += float(i[1])
+    try:
+        with open("expenses.csv", "r") as f:
+            for i in csv.reader(f):
+                sum += float(i[1])
 
-    print(f"Total Expenses: Rs {sum}\n")
+        print(f"Total Expenses: Rs {sum:.2f}\n")
+    except FileNotFoundError:
+        print("No expenses found!")
 
 
 print("Welcome to Expense Tracker\n")
