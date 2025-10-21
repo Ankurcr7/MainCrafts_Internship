@@ -30,8 +30,8 @@ def add_expense(desc: str, amount: str, category:str) -> None:
             category
         ]
     with open(CSV_FILE, "a", newline='') as f:
-                csv.writer(f).writerow(row)
-                print("Successfully Added!")
+        csv.writer(f).writerow(row)
+        print("Successfully Added!")
                  
 
 def view_expenses() -> None:
@@ -50,25 +50,33 @@ def view_expenses() -> None:
 
 
 def search_category(category:str) -> None:
-        if_expense_file_exists()
-        with open(CSV_FILE, "r" ) as f:
-             rows = list(csv.reader(f))[1:]
-        
-        total = 0
-        result = [i for i in rows if i[4].lower().strip() == category.lower().strip()]
-        if isEmpty(result):
-             print(f"No expenses found for '{category.strip()}' category!")
-        else:
-            for i in result:
-                print(f"{i[0]} | {i[1]} | {i[2]} | {i[3]} | {i[4]}")
-                total += float(i[3])
-        
-            print(f"\nTotal expense for {category} category: {total}")
+    if_expense_file_exists()
+    with open(CSV_FILE, "r" ) as f:
+            rows = list(csv.reader(f))[1:]
+    
+    total = 0
+    result = [i for i in rows if i[4].lower().strip() == category.lower().strip()]
+    if isEmpty(result):
+            print(f"No expenses found for '{category.strip()}' category!")
+    else:
+        for i in result:
+            print(f"{i[0]} | {i[1]} | {i[2]} | {i[3]} | {i[4]}")
+            total += float(i[3])
+    
+        print(f"\nTotal expense for {category} category: {total}")
 
 
-def delete_by_id(id):
-     ...
-                    
+def delete_by_id(id:str) -> None:
+    if_expense_file_exists()
+    with open(CSV_FILE, "r") as f:
+        rows = list(csv.reader(f))[1:]
+        updated_row = [row for row in rows if row[0] != id]
+        
+    with open(CSV_FILE, "w", newline='') as f:
+        csv.writer(f).writerow(HEADERS)
+        csv.writer(f).writerows(updated_row)
+             
+             
 
 def total_monthly_spent(month: str) -> None:
     if_expense_file_exists()
