@@ -95,7 +95,7 @@ def run():
     if_expense_file_exists()
     while True:
         print("\nSelect an option from below:-")
-        print("[1] Add Expense \n[2] View Expenses \n[3] Search Category \n[4] Total monthly spent \n[5] Delete by ID \n[6 or any character] Exit \n")
+        print("[1] Add Expense \n[2] View Expenses \n[3] Search Category \n[4] Total monthly expense \n[5] Delete an expense by ID \n[6 or any character] Exit \n")
         
         user = input("Type the option's number or type any character to EXIT: ")
         if user == "1": #
