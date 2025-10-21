@@ -28,5 +28,5 @@ A simple command-line expense tracker that stores and manages expenses using a C
 
 ### Example CSV Header
 
-| id,date,description,amount,category
+``` id,date,description,amount,category ```
 
