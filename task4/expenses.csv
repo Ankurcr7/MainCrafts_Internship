@@ -1,0 +1,23 @@
+id,date,description,amount,category
+1761060416196,2025-10-22,hostel fees,25000.0,accommodation
+1761060416197,2025-10-23,exam form,1500.0,education
+1761060416198,2025-10-24,books purchase,3200.0,education
+1761060416199,2025-10-25,canteen food,800.0,food
+1761060416200,2025-10-26,stationery,600.0,supplies
+1761060416201,2025-10-27,internet recharge,499.0,utilities
+1761060416202,2025-10-28,bus pass,1200.0,travel
+1761060416203,2025-10-29,sports fee,2000.0,extracurricular
+1761060416204,2025-10-30,electricity bill,1800.0,utilities
+1761060416205,2025-10-31,movie night,450.0,entertainment
+1761060416206,2025-11-01,library fine,200.0,education
+1761060416207,2025-11-02,mess fees,3500.0,food
+1761060416208,2025-11-03,tuition classes,5000.0,education
+1761060416209,2025-11-04,laptop repair,2500.0,maintenance
+1761060416210,2025-11-05,mobile recharge,299.0,utilities
+1761060416211,2025-11-06,health checkup,1500.0,medical
+1761060416212,2025-11-07,birthday gift,1200.0,personal
+1761060416213,2025-11-08,train ticket,850.0,travel
+1761060416214,2025-11-09,printer ink,900.0,supplies
+1761060416215,2025-11-10,subscription renewal,499.0,entertainment
+1761066874524,2025-10-21,jocket,600.0,supplies
+1761067033453,2025-10-21,paracetamol,200.0,medical
