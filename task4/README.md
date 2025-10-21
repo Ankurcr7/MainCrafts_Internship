@@ -17,12 +17,16 @@ A simple command-line expense tracker that stores and manages expenses using a C
 
 ## Menu Options:-
 
-### Option Action
+| Option | Action                          |
+| :----: | :------------------------------ |
+|    1   | Add new expense                 |
+|    2   | View all expenses               |
+|    3   | Search expenses by category     |
+|    4   | Delete an expense by ID         |
+|    5   | View total expenses for a month |
+|    6   | Exit                            |
 
-|    1    | Add new expense              |
-|    2    | View all expenses            |
-|    3    | Search expenses by category  |
-|    4    | Total expenses for a month   |
-|    5    | Delete an expense by ID      |
-|    6    | Exit                         |
+### Example CSV Header
+
+id,date,description,amount,category
 
