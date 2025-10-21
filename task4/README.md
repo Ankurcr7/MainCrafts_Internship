@@ -11,4 +11,4 @@ A simple command-line expense tracker that stores and manages expenses using a C
 
 3. Run:
 
-> python expense_tracker.py
+``` python expense_tracker.py ```
