@@ -63,4 +63,4 @@ After using delete function
 ![image](screenshots/after.PNG)
 
 
-And use 6 or and other character for EXIT 
+And use 6 or any other characters to EXIT 
