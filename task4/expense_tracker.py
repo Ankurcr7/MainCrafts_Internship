@@ -98,22 +98,22 @@ def run():
         print("[1] Add Expense \n[2] View Expenses \n[3] Search Category \n[4] Total monthly expense \n[5] Delete an expense by ID \n[6 or any character] Exit \n")
         
         user = input("Type the option's number or type any character to EXIT: ")
-        if user == "1": #
+        if user == "1": 
             desc = input("Description: ").strip()
             amount = input("Amount: ").strip()
             category = input("Category: ").strip()
             add_expense(desc, amount, category)
 
-        elif user == "2": #
+        elif user == "2": 
             view_expenses()
 
-        elif user == "3": #
+        elif user == "3": 
             search_category(input("Enter a Category: ").strip())
 
         elif user == "4": 
             total_monthly_spent(input("Enter month(YYYY-MM): ").strip())
 
-        elif user == "5": #
+        elif user == "5": 
             delete_by_id(input("Enter a ID: ").strip())
 
         else:
