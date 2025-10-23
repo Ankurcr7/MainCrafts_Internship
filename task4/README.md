@@ -34,4 +34,4 @@ A simple command-line expense tracker that stores and manages expenses using a C
 
 1. ``` Add new expense ```
 
-![image](screenshots\addfunc.PNG)
+![image](screenshots/addfunc.PNG)
