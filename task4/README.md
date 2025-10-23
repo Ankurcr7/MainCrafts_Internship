@@ -15,7 +15,7 @@ A simple command-line expense tracker that stores and manages expenses using a C
     python expense_tracker.py 
 ```
 
-## Menu Options:-
+## Menu Options
 
 | Option | Action                          |
 | :----: | :------------------------------ |
@@ -29,4 +29,6 @@ A simple command-line expense tracker that stores and manages expenses using a C
 ### Example CSV Header
 
 ``` id,date,description,amount,category ```
+
+### Screen Shots of each functions 
 

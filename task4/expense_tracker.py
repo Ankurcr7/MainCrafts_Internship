@@ -75,6 +75,7 @@ def delete_by_id(id:str) -> None:
     with open(CSV_FILE, "w", newline='') as f:
         csv.writer(f).writerow(HEADERS)
         csv.writer(f).writerows(updated_row)
+        print("Deleted successfully!")
              
              
 
