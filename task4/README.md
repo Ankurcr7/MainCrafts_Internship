@@ -50,7 +50,14 @@ A simple command-line expense tracker that stores and manages expenses using a C
 
 5. ``` Delete an expense by ID ```
 
-![image](screenshots/before.PNG)  ![image](screenshots/deletefunc.PNG)   ![image](screenshots/before.PNG)
+Before using delete function
+![image](screenshots/before.PNG) 
+
+Using delete function
+![image](screenshots/deletefunc.PNG)   
+
+After using delete function
+![image](screenshots/after.PNG)
 
 
 And use 6 or and other character for EXIT 
