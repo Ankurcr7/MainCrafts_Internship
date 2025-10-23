@@ -1,4 +1,4 @@
-# Expense Tracker — Python CLI App
+# Expense Tracker - Python CLI App
 ## 🧩 Description
 
 A simple command-line expense tracker that stores and manages expenses using a CSV file.
