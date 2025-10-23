@@ -64,19 +64,6 @@ def search_category(category:str) -> None:
             total += float(i[3])
     
         print(f"\nTotal expense for {category} category: {total}")
-
-
-def delete_by_id(id:str) -> None:
-    if_expense_file_exists()
-    with open(CSV_FILE, "r") as f:
-        rows = list(csv.reader(f))[1:]
-        updated_row = [row for row in rows if row[0] != id]
-        
-    with open(CSV_FILE, "w", newline='') as f:
-        csv.writer(f).writerow(HEADERS)
-        csv.writer(f).writerows(updated_row)
-        print("Deleted successfully!")
-             
              
 
 def total_monthly_spent(month: str) -> None:
@@ -90,6 +77,19 @@ def total_monthly_spent(month: str) -> None:
     else:
         total = sum(float(i[3]) for i in result)
         print(f"Monthly total for {month}: {total:.2f}")
+
+
+def delete_by_id(id:str) -> None:
+    if_expense_file_exists()
+    with open(CSV_FILE, "r") as f:
+        rows = list(csv.reader(f))[1:]
+        updated_row = [row for row in rows if row[0] != id]
+        
+    with open(CSV_FILE, "w", newline='') as f:
+        csv.writer(f).writerow(HEADERS)
+        csv.writer(f).writerows(updated_row)
+        print("Deleted successfully!")
+             
 
 
 def run():

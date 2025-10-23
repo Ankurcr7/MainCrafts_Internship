@@ -22,8 +22,8 @@ A simple command-line expense tracker that stores and manages expenses using a C
 |    1   | Add new expense                 |
 |    2   | View all expenses               |
 |    3   | Search expenses by category     |
-|    4   | Delete an expense by ID         |
-|    5   | View total expenses for a month |
+|    4   | View total expenses for a month |
+|    5   | Delete an expense by ID         |
 |    6   | Exit                            |
 
 ### Example CSV Header
@@ -32,8 +32,25 @@ A simple command-line expense tracker that stores and manages expenses using a C
 
 ### Screen Shots of each functions 
 
-1. ``` 
-    Add new expense  
-```
+1. ``` Add new expense ```
 
 ![image](screenshots/addfunc.PNG)
+
+2. ``` View all expenses ```
+
+![image](screenshots/viewfunc.PNG)
+
+3. ``` Search expenses by category   ```
+
+![image](screenshots/searchfunc.PNG)
+
+4. ``` View total expenses for a month ```
+
+![image](screenshots/monthlyfunc.PNG)
+
+5. ``` Delete an expense by ID ```
+
+![image](screenshots/before.PNG)  ![image](screenshots/deletefunc.PNG)   ![image](screenshots/before.PNG)
+
+
+And use 6 or and other character for EXIT 
