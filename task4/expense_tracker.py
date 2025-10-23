@@ -115,7 +115,7 @@ def run():
             total_monthly_spent(input("Enter month(YYYY-MM): ").strip())
 
         elif user == "5": 
-            delete_by_id(input("Enter a ID: ").strip())
+            delete_by_id(input("Enter an ID: ").strip())
 
         else:
             break
