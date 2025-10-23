@@ -55,9 +55,9 @@ def search_category(category:str) -> None:
             rows = list(csv.reader(f))[1:]
     
     total = 0
-    result = [i for i in rows if i[4].lower().strip() == category.lower().strip()]
+    result = [i for i in rows if i[4].lower() == category.lower()]
     if isEmpty(result):
-            print(f"No expenses found for '{category.strip()}' category!")
+            print(f"No expenses found for '{category}' category!")
     else:
         for i in result:
             print(f"{i[0]} | {i[1]} | {i[2]} | {i[3]} | {i[4]}")
