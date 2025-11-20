@@ -103,7 +103,7 @@ def list_expenses(month: Optional[str] = None):
 
             like_pattern = month + "-%"
             cur.execute("""
-                select id, date, description, amount, category from expenses where date like ? order by id""", (like_pattern,))
+                select id, date, description, amount, category from expenses where date like ? order by date""", (like_pattern,))
         else:
             cur.execute("""
                 select id, date, description, amount, category from expenses order by id""")
