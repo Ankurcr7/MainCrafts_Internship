@@ -1,0 +1,46 @@
+2025-11-20 23:48:34 INFO add: Added expense id=1 - 2025-11-20 Coffee 60.00 Food
+2025-11-20 23:48:38 INFO list: month=None count=1
+2025-11-20 23:49:24 INFO add: Added expense id=2 - 2025-11-01 Electricity bill 1250.50 Utilities
+2025-11-20 23:49:47 INFO list: month=None count=2
+2025-11-20 23:52:15 INFO add: Added expense id=3 - 2025-11-20 Tea 20.00 Food
+2025-11-20 23:52:19 INFO list: month=None count=3
+2025-11-20 23:52:52 INFO list: month=None count=3
+2025-11-21 00:01:14 INFO list: month=2025-11 count=3
+2025-11-21 00:03:07 ERROR Error generating category report
+Traceback (most recent call last):
+  File "E:\VS CODE\Github\MainCrafts_Internship\task5\app.py", line 152, in report
+    for i, total in rows:
+        ^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-11-21 00:04:44 ERROR Error generating category report
+Traceback (most recent call last):
+  File "E:\VS CODE\Github\MainCrafts_Internship\task5\app.py", line 152, in report
+    for i, total in rows:
+        ^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-11-21 00:05:05 ERROR Error generating category report
+Traceback (most recent call last):
+  File "E:\VS CODE\Github\MainCrafts_Internship\task5\app.py", line 152, in report
+    for i, total in rows:
+        ^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-11-21 00:05:54 ERROR Error generating category report
+Traceback (most recent call last):
+  File "E:\VS CODE\Github\MainCrafts_Internship\task5\app.py", line 152, in report
+    for i, total in rows:
+        ^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-11-21 00:08:38 INFO report: by=category rows=2
+2025-11-21 00:08:49 INFO report: by=month rows=1
+2025-11-21 00:13:50 INFO list: month=None count=3
+2025-11-21 00:14:26 INFO delete: id=3
+2025-11-21 00:14:29 INFO list: month=None count=2
+2025-11-21 00:16:40 ERROR Unexpected error in app
+Traceback (most recent call last):
+  File "E:\VS CODE\Github\MainCrafts_Internship\task5\app.py", line 226, in app
+    amt = validate_amount(args.amount)
+  File "E:\VS CODE\Github\MainCrafts_Internship\task5\app.py", line 48, in validate_amount
+    if not (amt > 0):
+            ^^^
+UnboundLocalError: cannot access local variable 'amt' where it is not associated with a value
+2025-11-21 00:17:05 INFO add: Added expense id=4 - 2025-11-21 tea leaf 45.00 Food
