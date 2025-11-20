@@ -44,3 +44,45 @@ Traceback (most recent call last):
             ^^^
 UnboundLocalError: cannot access local variable 'amt' where it is not associated with a value
 2025-11-21 00:17:05 INFO add: Added expense id=4 - 2025-11-21 tea leaf 45.00 Food
+2025-11-21 00:27:50 INFO list: month=None count=3
+2025-11-21 01:09:56 INFO add: Added expense id=5 - 2025-11-21 Breakfast 120.00 Food
+2025-11-21 01:09:56 INFO add: Added expense id=6 - 2025-11-21 Auto ride 250.00 Travel
+2025-11-21 01:09:56 INFO add: Added expense id=7 - 2025-11-21 T-shirt 990.00 Shopping
+2025-11-21 01:09:56 INFO add: Added expense id=8 - 2025-11-21 Tea 60.00 Food
+2025-11-21 01:09:57 INFO add: Added expense id=9 - 2025-11-21 Electricity bill 750.00 Bills
+2025-11-21 01:09:57 INFO add: Added expense id=10 - 2025-11-21 Snacks 40.00 Food
+2025-11-21 01:09:57 INFO add: Added expense id=11 - 2025-11-21 Vegetables 300.00 Groceries
+2025-11-21 01:09:57 INFO add: Added expense id=12 - 2025-11-21 Room rent share 1500.00 Rent
+2025-11-21 01:09:58 INFO add: Added expense id=13 - 2025-11-21 Juice 85.00 Food
+2025-11-21 01:09:58 INFO add: Added expense id=14 - 2025-11-21 Train ticket 450.00 Travel
+2025-11-21 01:09:58 INFO add: Added expense id=15 - 2025-11-21 Movie 220.00 Entertainment
+2025-11-21 01:09:58 INFO add: Added expense id=16 - 2025-11-21 Stationery 35.00 Misc
+2025-11-21 01:09:59 INFO add: Added expense id=17 - 2025-11-21 Medicines 560.00 Health
+2025-11-21 01:09:59 INFO add: Added expense id=18 - 2025-11-21 Lunch 130.00 Food
+2025-11-21 01:09:59 INFO add: Added expense id=19 - 2025-11-21 Accessories 999.00 Shopping
+2025-11-21 01:10:09 INFO list: month=None count=18
+2025-11-21 01:10:32 INFO delete: id=12
+2025-11-21 01:10:58 INFO list: month=2025-11 count=17
+2025-11-21 01:12:05 INFO report: by=category rows=9
+2025-11-21 01:13:04 INFO add: Added expense id=20 - 2022-01-12 Breakfast 120.00 Food
+2025-11-21 01:13:04 INFO add: Added expense id=21 - 2022-03-05 Bus Pass 300.00 Travel
+2025-11-21 01:13:04 INFO add: Added expense id=22 - 2022-07-19 Shoes 1500.00 Shopping
+2025-11-21 01:13:05 INFO add: Added expense id=23 - 2022-11-02 Snacks 40.00 Food
+2025-11-21 01:13:05 INFO add: Added expense id=24 - 2023-02-10 Internet Bill 699.00 Bills
+2025-11-21 01:13:05 INFO add: Added expense id=25 - 2023-04-14 Vegetables 260.00 Groceries
+2025-11-21 01:13:05 INFO add: Added expense id=26 - 2023-06-01 Gym Fee 1200.00 Health
+2025-11-21 01:13:06 INFO add: Added expense id=27 - 2023-09-08 Lunch 140.00 Food
+2025-11-21 01:13:06 INFO add: Added expense id=28 - 2023-12-21 Bike Service 850.00 Maintenance
+2025-11-21 01:13:06 INFO add: Added expense id=29 - 2024-01-16 Movie 220.00 Entertainment
+2025-11-21 01:13:06 INFO add: Added expense id=30 - 2024-03-09 Train Ticket 450.00 Travel
+2025-11-21 01:13:07 INFO add: Added expense id=31 - 2024-05-22 Medicines 580.00 Health
+2025-11-21 01:13:07 INFO add: Added expense id=32 - 2024-08-03 Dinner 250.00 Food
+2025-11-21 01:13:07 INFO add: Added expense id=33 - 2024-10-18 Power Bank 999.00 Electronics
+2025-11-21 01:13:07 INFO add: Added expense id=34 - 2024-12-11 Notebook 60.00 Misc
+2025-11-21 01:13:08 INFO add: Added expense id=35 - 2025-01-04 Auto Ride 90.00 Travel
+2025-11-21 01:13:08 INFO add: Added expense id=36 - 2025-02-27 Juice 70.00 Food
+2025-11-21 01:13:08 INFO add: Added expense id=37 - 2025-04-19 T-shirt 850.00 Shopping
+2025-11-21 01:13:08 INFO add: Added expense id=38 - 2025-07-06 Phone Cover 150.00 Accessories
+2025-11-21 01:13:09 INFO add: Added expense id=39 - 2025-10-28 Electricity Bill 820.00 Bills
+2025-11-21 01:13:16 INFO list: month=None count=37
+2025-11-21 01:13:33 INFO report: by=category rows=12

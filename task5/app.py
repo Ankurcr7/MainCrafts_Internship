@@ -3,7 +3,7 @@ import sqlite3
 import logging
 import sys
 from datetime import datetime
-from typing import Optional, List, Tuple
+from typing import Optional, List
 
 
 DB_FILE = "expenses.db"
