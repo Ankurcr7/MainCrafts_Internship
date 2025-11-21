@@ -72,8 +72,12 @@ python app.py delete --id 17
 
 Add two expenses:
 
+```python
+
 $ python app.py add --desc "Coffee" --amount 60 --category Food
 Added expense id=1 — 2025-11-19 Coffee 60.00 Food
 
 $ python app.py add --desc "Electricity bill" --amount 1250.5 --category utilities --date 2025-11-01
 Added expense id=2 — 2025-11-01 Electricity bill 1250.50 Utilities
+
+```
