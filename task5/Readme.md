@@ -75,9 +75,77 @@ Add two expenses:
 ```python
 
 $ python app.py add --desc "Coffee" --amount 60 --category Food
-Added expense id=1 — 2025-11-19 Coffee 60.00 Food
+Added expense id=1 - 2025-11-19 Coffee 60.00 Food
 
 $ python app.py add --desc "Electricity bill" --amount 1250.5 --category utilities --date 2025-11-01
-Added expense id=2 — 2025-11-01 Electricity bill 1250.50 Utilities
+Added expense id=2 - 2025-11-01 Electricity bill 1250.50 Utilities
+
+```
+
+List all:
+
+```python 
+
+$ python app.py list
+ ID  Date        Amount      Category      Description
+----------------------------------------------------------------------
+  1  2025-11-19      60.00  Food          Coffee
+  2  2025-11-01    1250.50  Utilities     Electricity bill
+```
+
+
+List by month:
+
+```python
+
+$ python app.py list --month 2025-11
+ ID  Date        Amount      Category      Description
+----------------------------------------------------------------------
+  1  2025-11-19      60.00  Food          Coffee
+  2  2025-11-01    1250.50  Utilities     Electricity bill
+
+```
+
+Report by category:
+
+```python 
+
+$ python app.py report --by category
+Category             Total        Count
+----------------------------------------
+Utilities            1250.50        1
+Food                   60.00        1
+----------------------------------------
+Grand Total          1310.50
+```
+
+
+Report by month:
+
+```python
+$ python app.py report --by month
+Month        Total        Count
+----------------------------------
+2025-11     1310.50        2
+----------------------------------
+Grand Total 1310.50
+```
+
+
+Delete:
+
+```python
+
+$ python app.py delete --id 1
+Deleted expense id=1
+
+```
+
+
+If an error occurs (invalid amount):
+
+```python
+$ python app.py add --desc "Bad" --amount abc --category Food
+Validation error: Amount must be a number (e.g., 12.50).
 
 ```
