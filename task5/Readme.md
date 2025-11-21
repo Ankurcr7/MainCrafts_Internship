@@ -53,3 +53,22 @@ Delete an expense:
 ```
 python app.py delete --id 17
 ```
+
+
+
+## Behavior & Validation
+- Amount must be numeric and > 0.
+- Category is normalized to Title Case.
+- Date must be `YYYY-MM-DD` when provided; otherwise today's date is used.
+- Helpful error messages are printed; emergencies/errors are logged to `app.log`.
+
+## Logging
+- All user actions (add/list/report/delete) are logged at INFO level to `app.log`.
+- Unexpected exceptions are logged at ERROR level with stack traces.
+
+## Example outputs
+(See `examples` section in this README for sample terminal captures.)
+
+## Screenshot
+If you captured terminal output or screenshots, place them in the repo. Example uploaded screenshot path:
+`/mnt/data/47d384c0-fe2d-45b0-9aae-f8535a2933c1.png`
