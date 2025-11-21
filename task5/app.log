@@ -86,3 +86,9 @@ UnboundLocalError: cannot access local variable 'amt' where it is not associated
 2025-11-21 01:13:09 INFO add: Added expense id=39 - 2025-10-28 Electricity Bill 820.00 Bills
 2025-11-21 01:13:16 INFO list: month=None count=37
 2025-11-21 01:13:33 INFO report: by=category rows=12
+2025-11-21 23:47:41 INFO add: Added expense id=40 - 2025-11-21 keyboard 1000.00 Utilities
+2025-11-21 23:49:12 INFO list: month=None count=38
+2025-11-21 23:50:43 INFO report: by=category rows=12
+2025-11-21 23:51:25 INFO report: by=month rows=21
+2025-11-21 23:52:13 INFO delete: id=5
+2025-11-21 23:52:54 INFO list: month=None count=37
