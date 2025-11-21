@@ -26,5 +26,30 @@ python app.py add --desc "Coffee" --amount 60 --category Food
 
 List all expenses:
 
+```
 python app.py list
+```
 
+List expenses for October 2025:
+
+```
+python app.py list --month 2025-10
+```
+
+Report totals by category:
+
+```
+python app.py report --by category
+```
+
+Report totals by month:
+
+```
+python app.py report --by month
+```
+
+Delete an expense:
+
+```
+python app.py delete --id 17
+```
