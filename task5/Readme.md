@@ -69,6 +69,11 @@ python app.py delete --id 17
 ## Example outputs
 (See `examples` section in this README for sample terminal captures.)
 
-## Screenshot
-If you captured terminal output or screenshots, place them in the repo. Example uploaded screenshot path:
-`/mnt/data/47d384c0-fe2d-45b0-9aae-f8535a2933c1.png`
+
+Add two expenses:
+
+$ python app.py add --desc "Coffee" --amount 60 --category Food
+Added expense id=1 — 2025-11-19 Coffee 60.00 Food
+
+$ python app.py add --desc "Electricity bill" --amount 1250.5 --category utilities --date 2025-11-01
+Added expense id=2 — 2025-11-01 Electricity bill 1250.50 Utilities
