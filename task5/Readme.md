@@ -111,12 +111,8 @@ Report by category:
 ```python 
 
 $ python app.py report --by category
-Category             Total        Count
-----------------------------------------
-Utilities            1250.50        1
-Food                   60.00        1
-----------------------------------------
-Grand Total          1310.50
+Shopping     -> Rs4339.00 (4 items)
+Health       -> Rs2340.00 (3 items)
 ```
 
 
@@ -124,11 +120,9 @@ Report by month:
 
 ```python
 $ python app.py report --by month
-Month        Total        Count
-----------------------------------
-2025-11     1310.50        2
-----------------------------------
-Grand Total 1310.50
+2025-11      -> Rs7224.50 (17 items)
+2025-10      -> Rs820.00 (1 items)
+
 ```
 
 

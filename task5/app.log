@@ -92,3 +92,5 @@ UnboundLocalError: cannot access local variable 'amt' where it is not associated
 2025-11-21 23:51:25 INFO report: by=month rows=21
 2025-11-21 23:52:13 INFO delete: id=5
 2025-11-21 23:52:54 INFO list: month=None count=37
+2025-11-22 00:10:15 INFO report: by=month rows=21
+2025-11-22 00:11:00 INFO report: by=category rows=12
