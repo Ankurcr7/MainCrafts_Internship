@@ -149,4 +149,27 @@ An unexpected error occurred. See app.log for details!
 
 ### Add Data
 
-`./Screenshots/add.PNG`
+![ADD DATA](Screenshots/add.PNG)
+
+### List Data
+
+![LIST DATA](Screenshots/list.PNG)
+
+### Report Data
+
+##### By Category
+
+![REPORT DATA BY CATEGORY](Screenshots/reportByCategory.PNG)
+
+##### By Month
+
+![REPORT DATA BY MONTH](Screenshots/reportByMonth.PNG)
+
+
+### Delete Data
+
+![DELETE DATA](Screenshots/delete.PNG)
+
+##### After Deletion 
+
+![AFTER DELETE](Screenshots/afterdelete.PNG)
