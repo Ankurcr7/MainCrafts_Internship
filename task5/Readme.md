@@ -149,4 +149,4 @@ An unexpected error occurred. See app.log for details!
 
 ### Add Data
 
-`Screenshots/add.PNG`
+`./Screenshots/add.PNG`
