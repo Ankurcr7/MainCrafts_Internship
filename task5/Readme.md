@@ -140,6 +140,13 @@ If an error occurs (invalid amount):
 
 ```python
 $ python app.py add --desc "Bad" --amount abc --category Food
-Validation error: Amount must be a number (e.g., 12.50).
+Amount must be a number (e.g., 12.50).
+An unexpected error occurred. See app.log for details!
 
 ```
+
+## Screenshots
+
+### Add Data
+
+`Screenshots\add.PNG`

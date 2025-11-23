@@ -94,3 +94,11 @@ UnboundLocalError: cannot access local variable 'amt' where it is not associated
 2025-11-21 23:52:54 INFO list: month=None count=37
 2025-11-22 00:10:15 INFO report: by=month rows=21
 2025-11-22 00:11:00 INFO report: by=category rows=12
+2025-11-23 14:39:32 ERROR Unexpected error in app
+Traceback (most recent call last):
+  File "E:\VS CODE\Github\MainCrafts_Internship\task5\app.py", line 226, in app
+    amt = validate_amount(args.amount)
+  File "E:\VS CODE\Github\MainCrafts_Internship\task5\app.py", line 48, in validate_amount
+    if not (amt > 0):
+            ^^^
+UnboundLocalError: cannot access local variable 'amt' where it is not associated with a value
